@@ -1,10 +1,16 @@
 import './App.css';
-import Counter from './components/Counter'
+// import Counter from './components/Counter'
+import Todo from './components/Todo'
+import TodoItem from './components/TodoItem'
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/* <Counter /> */}
+      <Todo/>
+      <br/>
+      <br/>
+      <TodoItem />
     </div>
   );
 }
